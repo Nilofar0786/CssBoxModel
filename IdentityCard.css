@@ -1,0 +1,144 @@
+
+/* Id card container for both side */ 
+
+.container{
+    position: relative;
+    
+}
+/* Id card back side for blue container */ 
+
+.f{
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    width: 258px;
+    height: 387px;
+    left: 55%;
+border-radius: 20px;
+     height: 389px;
+  filter: drop-shadow(6px 6px 3px rgb(211, 208, 208));
+
+margin-top: 80px;
+}
+
+/* Id card back side for all div  */ 
+
+ .d{
+  background-color: white;
+             position: absolute;
+             z-index: 2;
+             left: 10px;
+             top: 8px;
+             height: 372px;
+             width: 240px;
+            text-align: center;
+            bottom: 6x;
+            border-radius: 20px;
+
+}
+.d2{
+    height: 45px;
+    width: 45px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.d3{
+    font-size: medium;
+}
+.d4{
+    font-size: small;
+    font-family: bold;
+}
+
+/* Id card back side for paragraph  */
+
+.para{
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
+.barcode{
+    height: 50px;
+    width: 180px;
+    align-items: center;
+    }
+.address{
+    text-align: center;
+}
+.g{
+
+}
+
+/* Id card front side    */ 
+
+/* Id card front side for container  */ 
+/* .container{
+    position: relative;
+} */
+
+.c{
+    background-color: rgb(8, 8, 31);
+    z-index: 3;
+    position: absolute;
+    width: 258px;
+    height: 387px;
+    left: 32%;
+border-radius: 20px;
+     height: 389px;
+  filter: drop-shadow(6px 6px 3px rgb(211, 208, 208));
+} 
+
+
+/* Id card front side for profile   */
+.b{
+    z-index: 4;
+    position: absolute;
+     width: 500px;
+    height: 350px;
+    left: 495px;
+    top: 110px;
+
+} 
+
+.a{
+background-color:black;
+z-index: 6;
+position: absolute;
+left: 70px;
+top: 0.1px;
+text-align: center;
+height: 184px;
+width: 100px;
+border-bottom-left-radius: 52px;
+border-bottom-right-radius: 54px;
+
+        } 
+         .a1{ 
+            text-align: center;
+            font-size: 8px;
+            color: white;
+        }
+        .a2{
+            clip-path: circle();
+            width: 80px;
+            height: 80px;
+        }
+        .a3{
+            height: 40px;
+            width: 40px;
+            align-items: center;
+        }
+
+        /* Id card front side for all div  */ 
+
+        .b{
+             position: absolute;
+             z-index: 4;
+             top: 0.1px;
+             height: 70px;
+             width: 150px;
+            color:black;
+      font-size: 16px;
+}
+        

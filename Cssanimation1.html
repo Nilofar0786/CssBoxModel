@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.distort {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 400px;          /* auto-wrap width */
+  color: #000;
+  display: inline-block;
+  position: relative;
+  animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%   { filter: url(#distort1); }
+  50%  { filter: url(#distort2); }
+  100% { filter: url(#distort1); }
+}
+
+</style>
+</head>
+<body>
+    
+<h1 class="distort">
+  Distortion Text Animation Using Pure CSS
+</h1>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+ body{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgb(80, 76, 95);
+}
+.container1{
+    background-color: rgb(55, 44, 78);
+height: 550px;
+width: 650px;
+margin-left: 370px;
+margin-top: 30px;
+display: flex;
+border-radius: 8px; 
+}
+
+
+
+ /* background-image:url('C:/pic_html/beach.png'); */ */
+ /* }
+.a1{
+    height: 550px;
+    width: 650px;
+}
+.a2{
+    height: 550px;
+    width: 650px;
+}
+.checkbox{
+    margin-left: 1px;
+}
+.a1{
+border: 4px rgb(228, 220, 220);
+}
+.a3{
+    height: 20px;
+    width: 20px;
+}*/
+img{
+    /* opacity: 1.0; */
+    padding: 20px 20px;
+    height: 510px;
+    border-radius: 8px;
+    width: 300px;
+} 
+.form1{
+     background-color: rgb(55, 44, 78);
+    text-align: left;
+    margin-left: 1px;
+
+    padding: 20px;
+    height: 550;
+    float: left;
+}
+
+/* .a2{
+
+}
+label{
+    font-size: small;
+    color:white;
+}
+input{
+    width: 250px;
+    background: transparent;
+    color: white;
+}
+.button1{
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 125, 213);
+    border-radius: 4px;
+margin-left: 65px;
+}
+.gift1{
+display: flex;
+}
+.gift{
+
+}
+
+.box1{
+display: flex;
+align-items: center;
+gap: 2px;
+}
+.text2{
+display: flex;
+} */
